@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Presentation
 {
-    public partial class FrmAjoutPersonne : Form
+    public partial class FrmLouerVoiture : Form
     {
-        public FrmAjoutPersonne()
+        public FrmLouerVoiture()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
     }
 }
