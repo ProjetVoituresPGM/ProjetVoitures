@@ -26,5 +26,13 @@ namespace Presentation
         {
 
         }
+
+        private void FrmAjoutPersonne_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+
     }
 }
