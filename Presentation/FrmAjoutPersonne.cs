@@ -21,5 +21,10 @@ namespace Presentation
         {
             Application.Exit();
         }
+
+        private void FrmAjoutPersonne_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
