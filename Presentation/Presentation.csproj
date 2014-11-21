@@ -62,6 +62,12 @@
     <Compile Include="FrmAjoutVoiture.Designer.cs">
       <DependentUpon>FrmAjoutVoiture.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsulterPersonnes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsulterPersonnes.Designer.cs">
+      <DependentUpon>FrmConsulterPersonnes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsulterVoitures.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAjoutVoiture.resx">
       <DependentUpon>FrmAjoutVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsulterPersonnes.resx">
+      <DependentUpon>FrmConsulterPersonnes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsulterVoitures.resx">
       <DependentUpon>FrmConsulterVoitures.cs</DependentUpon>
