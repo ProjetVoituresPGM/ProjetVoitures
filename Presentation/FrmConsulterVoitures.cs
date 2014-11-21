@@ -16,5 +16,12 @@ namespace Presentation
         {
             InitializeComponent();
         }
+
+        private void btn_Fermer_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+  
     }
 }
