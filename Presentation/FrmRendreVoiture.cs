@@ -10,24 +10,11 @@ using System.Windows.Forms;
 
 namespace Presentation
 {
-    public partial class FrmAjoutPersonne : Form
+    public partial class FrmRendreVoiture : Form
     {
-        public FrmAjoutPersonne()
+        public FrmRendreVoiture()
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmAjoutPersonne_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
-
     }
 }

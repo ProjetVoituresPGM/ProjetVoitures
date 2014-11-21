@@ -62,6 +62,12 @@
     <Compile Include="FrmConsulterVoitures.Designer.cs">
       <DependentUpon>FrmConsulterVoitures.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRendreVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRendreVoiture.Designer.cs">
+      <DependentUpon>FrmRendreVoiture.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAccueil.resx">
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsulterVoitures.resx">
       <DependentUpon>FrmConsulterVoitures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRendreVoiture.resx">
+      <DependentUpon>FrmRendreVoiture.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
