@@ -50,6 +50,12 @@
     <Compile Include="FrmAccueil.Designer.cs">
       <DependentUpon>FrmAccueil.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAjoutPersonne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAjoutPersonne.Designer.cs">
+      <DependentUpon>FrmAjoutPersonne.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsulterVoitures.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAccueil.resx">
       <DependentUpon>FrmAccueil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAjoutPersonne.resx">
+      <DependentUpon>FrmAjoutPersonne.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsulterVoitures.resx">
       <DependentUpon>FrmConsulterVoitures.cs</DependentUpon>
