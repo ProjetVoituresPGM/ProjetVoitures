@@ -9,6 +9,8 @@ namespace Metier
     class Voiture
     {
 
+        // blabla
+
         private string categorie;
         private bool estLouee;
         private string immatriculation;
@@ -16,6 +18,7 @@ namespace Metier
         private string loueur;
         private int puissance;
         private string nom;
+        
 
 
         public string Categorie
