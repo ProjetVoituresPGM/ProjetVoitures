@@ -79,7 +79,7 @@
             "Louée"});
             this.cbx_trierSur.Location = new System.Drawing.Point(515, 86);
             this.cbx_trierSur.Name = "cbx_trierSur";
-            this.cbx_trierSur.Size = new System.Drawing.Size(98, 21);
+            this.cbx_trierSur.Size = new System.Drawing.Size(120, 21);
             this.cbx_trierSur.TabIndex = 4;
             // 
             // cbx_nomPersonne
@@ -124,7 +124,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Enabled = false;
             this.Name = "FrmConsulterVoitures";
             this.Text = "FrmConsulterVoitures";
             ((System.ComponentModel.ISupportInitialize)(this.dgvVoitures)).EndInit();
