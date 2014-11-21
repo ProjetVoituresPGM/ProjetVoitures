@@ -7,6 +7,7 @@ using Metier;
 
 namespace Metier
 {
+    //agence cool
     public class Agence
     {
         private string nom;
