@@ -79,6 +79,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Fermer";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -121,6 +122,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmLouerVoiture";
             this.Text = "FrmLouerVoiture";
+            this.Load += new System.EventHandler(this.FrmLouerVoiture_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

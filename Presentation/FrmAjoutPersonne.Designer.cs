@@ -146,6 +146,7 @@
             this.HelpButton = true;
             this.Name = "FrmAjoutPersonne";
             this.Text = "FrmAjoutPersonne";
+            this.Load += new System.EventHandler(this.FrmAjoutPersonne_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
