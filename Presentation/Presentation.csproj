@@ -56,11 +56,23 @@
     <Compile Include="FrmAjoutPersonne.Designer.cs">
       <DependentUpon>FrmAjoutPersonne.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAjoutVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAjoutVoiture.Designer.cs">
+      <DependentUpon>FrmAjoutVoiture.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmConsulterVoitures.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmConsulterVoitures.Designer.cs">
       <DependentUpon>FrmConsulterVoitures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLouerVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLouerVoiture.Designer.cs">
+      <DependentUpon>FrmLouerVoiture.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,8 +82,14 @@
     <EmbeddedResource Include="FrmAjoutPersonne.resx">
       <DependentUpon>FrmAjoutPersonne.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmAjoutVoiture.resx">
+      <DependentUpon>FrmAjoutVoiture.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmConsulterVoitures.resx">
       <DependentUpon>FrmConsulterVoitures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLouerVoiture.resx">
+      <DependentUpon>FrmLouerVoiture.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,6 +112,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Metier\Metier.csproj">
+      <Project>{b0ad431c-f604-4785-b11c-5511483f5c19}</Project>
+      <Name>Metier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilitaire\Utilitaire.csproj">
+      <Project>{d894b6a2-ae60-4e26-9c95-c05e3113fa93}</Project>
+      <Name>Utilitaire</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

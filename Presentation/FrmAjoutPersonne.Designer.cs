@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btn_fermer = new System.Windows.Forms.Button();
+            this.btn_ajouter = new System.Windows.Forms.Button();
+            this.txt_nom = new System.Windows.Forms.TextBox();
+            this.txt_prenom = new System.Windows.Forms.TextBox();
+            this.txt_ville = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -82,61 +82,61 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Ville :";
             // 
-            // button1
+            // btn_fermer
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(78, 443);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 37);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Fermer";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_fermer.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fermer.Location = new System.Drawing.Point(78, 443);
+            this.btn_fermer.Name = "btn_fermer";
+            this.btn_fermer.Size = new System.Drawing.Size(109, 37);
+            this.btn_fermer.TabIndex = 4;
+            this.btn_fermer.Text = "Fermer";
+            this.btn_fermer.UseVisualStyleBackColor = true;
+            this.btn_fermer.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btn_ajouter
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(347, 443);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 37);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Ajouter";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_ajouter.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ajouter.Location = new System.Drawing.Point(347, 443);
+            this.btn_ajouter.Name = "btn_ajouter";
+            this.btn_ajouter.Size = new System.Drawing.Size(119, 37);
+            this.btn_ajouter.TabIndex = 5;
+            this.btn_ajouter.Text = "Ajouter";
+            this.btn_ajouter.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txt_nom
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(177, 173);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 29);
-            this.textBox1.TabIndex = 6;
+            this.txt_nom.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_nom.Location = new System.Drawing.Point(177, 173);
+            this.txt_nom.Name = "txt_nom";
+            this.txt_nom.Size = new System.Drawing.Size(212, 29);
+            this.txt_nom.TabIndex = 6;
             // 
-            // textBox2
+            // txt_prenom
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(177, 267);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 29);
-            this.textBox2.TabIndex = 7;
+            this.txt_prenom.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_prenom.Location = new System.Drawing.Point(177, 267);
+            this.txt_prenom.Name = "txt_prenom";
+            this.txt_prenom.Size = new System.Drawing.Size(212, 29);
+            this.txt_prenom.TabIndex = 7;
             // 
-            // textBox3
+            // txt_ville
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(177, 368);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(212, 29);
-            this.textBox3.TabIndex = 8;
+            this.txt_ville.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ville.Location = new System.Drawing.Point(177, 368);
+            this.txt_ville.Name = "txt_ville";
+            this.txt_ville.Size = new System.Drawing.Size(212, 29);
+            this.txt_ville.TabIndex = 8;
             // 
             // FrmAjoutPersonne
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(631, 518);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txt_ville);
+            this.Controls.Add(this.txt_prenom);
+            this.Controls.Add(this.txt_nom);
+            this.Controls.Add(this.btn_ajouter);
+            this.Controls.Add(this.btn_fermer);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -146,6 +146,7 @@
             this.HelpButton = true;
             this.Name = "FrmAjoutPersonne";
             this.Text = "FrmAjoutPersonne";
+            this.Load += new System.EventHandler(this.FrmAjoutPersonne_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,10 +158,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btn_fermer;
+        private System.Windows.Forms.Button btn_ajouter;
+        private System.Windows.Forms.TextBox txt_nom;
+        private System.Windows.Forms.TextBox txt_prenom;
+        private System.Windows.Forms.TextBox txt_ville;
     }
 }

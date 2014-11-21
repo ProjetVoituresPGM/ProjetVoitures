@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Presentation
 {
-    public partial class FrmConsulterVoitures : Form
+    public partial class FrmRendreVoiture : Form
     {
-        public FrmConsulterVoitures()
+        public FrmRendreVoiture()
         {
             InitializeComponent();
         }
-
-        private void btn_Fermer_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-  
     }
 }
