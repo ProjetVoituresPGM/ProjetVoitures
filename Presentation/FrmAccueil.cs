@@ -54,5 +54,12 @@ namespace Presentation
             FrmConsulterVoitures unAffichDesVoitures = new FrmConsulterVoitures();
             unAffichDesVoitures.Show();
         }
+
+        private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uneVoiture = new Voiture();
+            FrmAjoutVoiture unAjoutVoiture = new FrmAjoutVoiture();
+            unAjoutVoiture.Show();
+        }
     }
 }
