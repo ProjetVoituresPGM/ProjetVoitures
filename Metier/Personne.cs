@@ -8,6 +8,7 @@ namespace Metier
 {
     class Personne
     {
+        //alex
         /// <summary>
         /// Propriétés
         /// </summary>
