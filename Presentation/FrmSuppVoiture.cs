@@ -19,7 +19,7 @@ namespace Presentation
 
         private void btnFermer_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Close(); 
         }
     }
 }
