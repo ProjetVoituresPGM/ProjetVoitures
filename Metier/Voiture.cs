@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
+    
+    [Serializable]
     public class Voiture
+
     {
-
-        // blabla
-
+             
         private string categorie;
         private bool estLouee;
         private string immatriculation;
-        //private date dateMiseEnService;
-        private string loueur;
+        private DateTime dateMiseEnService;
+        private Personne loueur;
         private int puissance;
         private string nom;
         
@@ -36,7 +37,7 @@ namespace Metier
             get { return immatriculation; }
             set { immatriculation = value; }
         }
-        public string Loueur
+        public Personne Loueur
         {
             get { return loueur; }
             set { loueur = value; }
@@ -51,6 +52,9 @@ namespace Metier
             get { return puissance; }
             set { puissance = value; }
         }
+
+
+
         /// <summary>
         /// Constructeur de Voiture
         /// </summary>
@@ -60,7 +64,7 @@ namespace Metier
         /// <param name="loueur"></param>
         /// <param name="nom"></param>
         /// <param name="puissance"></param>
-        public Voiture(string categorie, bool estLouee, string imma, string loueur, string nom, int puissance)
+        public Voiture(string categorie, bool estLouee, string imma, Personne loueur, string nom, int puissance)
         {
             this.categorie = categorie;
             this.estLouee = estLouee;

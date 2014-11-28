@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
+
+    [Serializable]
     public class Personne
     {
-        //alex
-        /// <summary>
+
         /// Propriétés
-        /// </summary>
         private string nom;
         private string prenom;
         private string ville;
 
-        /// <summary>
+
+
         /// Getters & Setters
-        /// </summary>
         public string Nom
         {
             get { return nom; }
@@ -55,6 +55,6 @@ namespace Metier
         public Personne()
         { }
 
-        //Methode
+       
     }
 }
