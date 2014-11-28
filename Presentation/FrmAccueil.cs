@@ -16,6 +16,14 @@ namespace Presentation
     {
         private Personne unePersonne;
         private Voiture uneVoiture;
+
+        private Agence agence;
+
+        public Agence Agence
+        {
+            get { return agence; }
+            set { agence = value; }
+        }
         
 
         public FrmAccueil()
@@ -31,7 +39,7 @@ namespace Presentation
         private void ajouterUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
         {
             unePersonne = new Personne();
-            FrmAjoutPersonne unAjoutPersonne = new FrmAjoutPersonne();
+            FrmAjoutPersonne unAjoutPersonne = new FrmAjoutPersonne(agence);
             unAjoutPersonne.Show();
 
         }
