@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Metier
 {
-    
+
     [Serializable]
     public class Voiture
-
     {
-             
+
         private string categorie;
         private bool estLouee;
         private string immatriculation;
@@ -19,7 +18,7 @@ namespace Metier
         private Personne loueur;
         private int puissance;
         private string nom;
-        
+
 
 
         public string Categorie
@@ -52,7 +51,11 @@ namespace Metier
             get { return puissance; }
             set { puissance = value; }
         }
-
+        public DateTime DateMiseEnService
+        {
+            get { return dateMiseEnService; }
+            set { dateMiseEnService = value; }
+        }
 
 
         /// <summary>

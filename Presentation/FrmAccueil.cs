@@ -59,7 +59,7 @@ namespace Presentation
         private void ajouterUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
             uneVoiture = new Voiture();
-            FrmAjoutVoiture unAjoutVoiture = new FrmAjoutVoiture();
+            FrmAjoutVoiture unAjoutVoiture = new FrmAjoutVoiture(agence);
             unAjoutVoiture.Show();
         }
 

@@ -34,13 +34,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cbx_loueeOui = new System.Windows.Forms.CheckBox();
+            this.cbx_loueeNon = new System.Windows.Forms.CheckBox();
+            this.tbx_nomVoiture = new System.Windows.Forms.TextBox();
+            this.tbx_ImmatriculationVoiture = new System.Windows.Forms.TextBox();
+            this.tbx_puissanceVoiture = new System.Windows.Forms.TextBox();
+            this.tbx_dateMiseServiceVoiture = new System.Windows.Forms.TextBox();
+            this.tbx_categorieVoiture = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_fermer = new System.Windows.Forms.Button();
             this.btn_ajouter = new System.Windows.Forms.Button();
@@ -106,63 +106,63 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Louée :";
             // 
-            // checkBox1
+            // cbx_loueeOui
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(313, 361);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(49, 24);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "oui";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.cbx_loueeOui.AutoSize = true;
+            this.cbx_loueeOui.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx_loueeOui.Location = new System.Drawing.Point(313, 361);
+            this.cbx_loueeOui.Name = "cbx_loueeOui";
+            this.cbx_loueeOui.Size = new System.Drawing.Size(49, 24);
+            this.cbx_loueeOui.TabIndex = 7;
+            this.cbx_loueeOui.Text = "oui";
+            this.cbx_loueeOui.UseVisualStyleBackColor = true;
+            this.cbx_loueeOui.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // checkBox2
+            // cbx_loueeNon
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(428, 361);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(55, 24);
-            this.checkBox2.TabIndex = 8;
-            this.checkBox2.Text = "non";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cbx_loueeNon.AutoSize = true;
+            this.cbx_loueeNon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx_loueeNon.Location = new System.Drawing.Point(428, 361);
+            this.cbx_loueeNon.Name = "cbx_loueeNon";
+            this.cbx_loueeNon.Size = new System.Drawing.Size(55, 24);
+            this.cbx_loueeNon.TabIndex = 8;
+            this.cbx_loueeNon.Text = "non";
+            this.cbx_loueeNon.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tbx_nomVoiture
             // 
-            this.textBox1.Location = new System.Drawing.Point(313, 121);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(159, 20);
-            this.textBox1.TabIndex = 9;
+            this.tbx_nomVoiture.Location = new System.Drawing.Point(313, 121);
+            this.tbx_nomVoiture.Name = "tbx_nomVoiture";
+            this.tbx_nomVoiture.Size = new System.Drawing.Size(159, 20);
+            this.tbx_nomVoiture.TabIndex = 9;
             // 
-            // textBox2
+            // tbx_ImmatriculationVoiture
             // 
-            this.textBox2.Location = new System.Drawing.Point(313, 167);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 20);
-            this.textBox2.TabIndex = 10;
+            this.tbx_ImmatriculationVoiture.Location = new System.Drawing.Point(313, 167);
+            this.tbx_ImmatriculationVoiture.Name = "tbx_ImmatriculationVoiture";
+            this.tbx_ImmatriculationVoiture.Size = new System.Drawing.Size(159, 20);
+            this.tbx_ImmatriculationVoiture.TabIndex = 10;
             // 
-            // textBox3
+            // tbx_puissanceVoiture
             // 
-            this.textBox3.Location = new System.Drawing.Point(313, 209);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(159, 20);
-            this.textBox3.TabIndex = 11;
+            this.tbx_puissanceVoiture.Location = new System.Drawing.Point(313, 209);
+            this.tbx_puissanceVoiture.Name = "tbx_puissanceVoiture";
+            this.tbx_puissanceVoiture.Size = new System.Drawing.Size(159, 20);
+            this.tbx_puissanceVoiture.TabIndex = 11;
             // 
-            // textBox4
+            // tbx_dateMiseServiceVoiture
             // 
-            this.textBox4.Location = new System.Drawing.Point(313, 261);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(159, 20);
-            this.textBox4.TabIndex = 12;
+            this.tbx_dateMiseServiceVoiture.Location = new System.Drawing.Point(313, 261);
+            this.tbx_dateMiseServiceVoiture.Name = "tbx_dateMiseServiceVoiture";
+            this.tbx_dateMiseServiceVoiture.Size = new System.Drawing.Size(159, 20);
+            this.tbx_dateMiseServiceVoiture.TabIndex = 12;
             // 
-            // textBox5
+            // tbx_categorieVoiture
             // 
-            this.textBox5.Location = new System.Drawing.Point(313, 311);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(159, 20);
-            this.textBox5.TabIndex = 13;
+            this.tbx_categorieVoiture.Location = new System.Drawing.Point(313, 311);
+            this.tbx_categorieVoiture.Name = "tbx_categorieVoiture";
+            this.tbx_categorieVoiture.Size = new System.Drawing.Size(159, 20);
+            this.tbx_categorieVoiture.TabIndex = 13;
             // 
             // label1
             // 
@@ -193,6 +193,7 @@
             this.btn_ajouter.TabIndex = 16;
             this.btn_ajouter.Text = "Ajouter";
             this.btn_ajouter.UseVisualStyleBackColor = true;
+            this.btn_ajouter.Click += new System.EventHandler(this.btn_ajouter_Click);
             // 
             // FrmAjoutVoiture
             // 
@@ -203,13 +204,13 @@
             this.Controls.Add(this.btn_ajouter);
             this.Controls.Add(this.btn_fermer);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.tbx_categorieVoiture);
+            this.Controls.Add(this.tbx_dateMiseServiceVoiture);
+            this.Controls.Add(this.tbx_puissanceVoiture);
+            this.Controls.Add(this.tbx_ImmatriculationVoiture);
+            this.Controls.Add(this.tbx_nomVoiture);
+            this.Controls.Add(this.cbx_loueeNon);
+            this.Controls.Add(this.cbx_loueeOui);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -231,13 +232,13 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.CheckBox cbx_loueeOui;
+        private System.Windows.Forms.CheckBox cbx_loueeNon;
+        private System.Windows.Forms.TextBox tbx_nomVoiture;
+        private System.Windows.Forms.TextBox tbx_ImmatriculationVoiture;
+        private System.Windows.Forms.TextBox tbx_puissanceVoiture;
+        private System.Windows.Forms.TextBox tbx_dateMiseServiceVoiture;
+        private System.Windows.Forms.TextBox tbx_categorieVoiture;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_fermer;
         private System.Windows.Forms.Button btn_ajouter;
