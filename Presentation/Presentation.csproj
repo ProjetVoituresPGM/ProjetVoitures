@@ -80,6 +80,12 @@
     <Compile Include="FrmLouerVoiture.Designer.cs">
       <DependentUpon>FrmLouerVoiture.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRendreUneVoiture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRendreUneVoiture.Designer.cs">
+      <DependentUpon>FrmRendreUneVoiture.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSuppPersonne.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLouerVoiture.resx">
       <DependentUpon>FrmLouerVoiture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRendreUneVoiture.resx">
+      <DependentUpon>FrmRendreUneVoiture.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSuppPersonne.resx">
       <DependentUpon>FrmSuppPersonne.cs</DependentUpon>
