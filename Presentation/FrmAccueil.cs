@@ -38,19 +38,20 @@ namespace Presentation
 
         private void louerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            uneVoiture = new Voiture();
+          
             FrmLouerVoiture uneLocationVoiture = new FrmLouerVoiture();
             uneLocationVoiture.Show();
         }
 
         private void rendreUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            FrmRendreUneVoiture unRetourVoiture = new FrmRendreUneVoiture();
+            unRetourVoiture.Show();
         }
 
         private void toutesLesVoituresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            uneVoiture = new Voiture();
+           
             FrmConsulterVoitures unAffichDesVoitures = new FrmConsulterVoitures();
             unAffichDesVoitures.Show();
         }
@@ -60,6 +61,27 @@ namespace Presentation
             uneVoiture = new Voiture();
             FrmAjoutVoiture unAjoutVoiture = new FrmAjoutVoiture();
             unAjoutVoiture.Show();
+        }
+
+        private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            FrmSuppVoiture SuppVoiture = new FrmSuppVoiture();
+            SuppVoiture.Show();
+
+        }
+
+        private void supprimerUnePersonneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSuppPersonne SupprimerUnePersonne = new FrmSuppPersonne();
+            SupprimerUnePersonne.Show();
+        }
+
+        private void toutesLesPersonnesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmConsulterPersonnes unAffichageDesPersonnes = new FrmConsulterPersonnes();
+            unAffichageDesPersonnes.Show();
+
         }
     }
 }
