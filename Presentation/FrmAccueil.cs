@@ -74,7 +74,7 @@ namespace Presentation
         private void supprimerUneVoitureToolStripMenuItem_Click(object sender, EventArgs e)
         {
            
-            FrmSuppVoiture SuppVoiture = new FrmSuppVoiture();
+            FrmSuppVoiture SuppVoiture = new FrmSuppVoiture(agence);
             SuppVoiture.Show();
 
         }
