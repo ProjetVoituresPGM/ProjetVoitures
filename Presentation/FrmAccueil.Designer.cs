@@ -44,6 +44,7 @@
             this.toutesLesVoituresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toutesLesPersonnesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
+            this.supprimerUnePersonneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,7 +110,8 @@
             // personnesToolStripMenuItem
             // 
             this.personnesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterUnePersonneToolStripMenuItem});
+            this.ajouterUnePersonneToolStripMenuItem,
+            this.supprimerUnePersonneToolStripMenuItem});
             this.personnesToolStripMenuItem.Name = "personnesToolStripMenuItem";
             this.personnesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.personnesToolStripMenuItem.Text = "Personnes";
@@ -117,7 +119,7 @@
             // ajouterUnePersonneToolStripMenuItem
             // 
             this.ajouterUnePersonneToolStripMenuItem.Name = "ajouterUnePersonneToolStripMenuItem";
-            this.ajouterUnePersonneToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.ajouterUnePersonneToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.ajouterUnePersonneToolStripMenuItem.Text = "Ajouter une personne";
             this.ajouterUnePersonneToolStripMenuItem.Click += new System.EventHandler(this.ajouterUnePersonneToolStripMenuItem_Click);
             // 
@@ -177,6 +179,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Bienvenue !";
             // 
+            // supprimerUnePersonneToolStripMenuItem
+            // 
+            this.supprimerUnePersonneToolStripMenuItem.Name = "supprimerUnePersonneToolStripMenuItem";
+            this.supprimerUnePersonneToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.supprimerUnePersonneToolStripMenuItem.Text = "Supprimer une personne";
+            // 
             // FrmAccueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -213,6 +221,7 @@
         private System.Windows.Forms.ToolStripMenuItem toutesLesVoituresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toutesLesPersonnesToolStripMenuItem;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem supprimerUnePersonneToolStripMenuItem;
     }
 }
 

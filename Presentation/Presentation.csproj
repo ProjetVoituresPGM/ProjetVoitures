@@ -145,10 +145,6 @@
       <Project>{b0ad431c-f604-4785-b11c-5511483f5c19}</Project>
       <Name>Metier</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utilitaire\Utilitaire.csproj">
-      <Project>{d894b6a2-ae60-4e26-9c95-c05e3113fa93}</Project>
-      <Name>Utilitaire</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
